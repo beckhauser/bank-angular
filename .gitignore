@@ -48,3 +48,4 @@ Thumbs.db
 .angular
 .vscode/launch.json
 db.json
+/dados/db.json
