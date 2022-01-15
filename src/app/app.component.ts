@@ -4,16 +4,14 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
   title = 'bank';
 
-  constructor(private transferenciaService: TransferenciaService){}
+  constructor(private transferenciaService: TransferenciaService) {}
 
-  transferir($event){
-    this.transferenciaService.adicionar($event)
+  transferir($event) {
+    this.transferenciaService.adicionar($event);
   }
-
-
 }
